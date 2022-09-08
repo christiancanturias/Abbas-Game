@@ -1,0 +1,29 @@
+.ver::after {
+  font-size: 14px;
+  content: "Version 0.0.1 (Beta)";
+  visibility: visible;
+}
+
+.ver {
+  position: fixed;
+  left: 1px;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.legal::after {
+  font-size: 14px;
+  content: "\00a9  Abbas Gwapo Studios 2022";
+  visibility: visible;
+}
+
+.legal {
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+a {
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0)
+}

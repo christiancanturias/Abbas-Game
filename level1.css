@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(8, 8, 8);
+  color: white;
+  font-family: Arial;
+  margin-top: 52px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
+  background-color: rgb(12, 12, 12);
+  border-bottom: 1px solid rgb(90, 90, 90);
+
+  display: flex;
+  align-items: center;
+}
+header a {
+  margin-left: 8px;
+  background-color: rgb(245, 67, 150);
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 50px;
+}
+header a:active {
+  filter: brightness(125%);
+  -webkit-transform: scale(1.05);
+}
+.right-side {
+  font-weight: 800;
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  flex: 1;
+  margin-right: 8px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+  font-weight: 800;
+  text-align: center;
+
+  background: rgb(5,115,255);
+  background: linear-gradient(0deg, rgba(5,115,255,1) 0%, rgba(35,237,231,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.one-one {
+  background-color: rgba(116, 58, 58, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+
+  border: 2px solid rgb(90, 90, 90);
+  border-radius: 12px;
+  width: 356px;
+}
+.question {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 8px;
+  width: 344px;
+
+  border-bottom: 2px solid rgb(90, 90, 90);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  background: rgba(5, 113, 255, 0.1);
+  background: linear-gradient(0deg, rgba(5,115,255,0.1) 0%, rgba(35,237,231,0.1) 100%);
+}
+.choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.choices-btn {
+  width: auto;
+  text-align: center;
+  padding: 12px;
+  margin-top: 24px;
+  background: rgb(252,22,236);
+  background: linear-gradient(0deg, rgba(252,22,236,1) 0%, rgba(32,195,233,1) 100%);
+
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 50px;
+
+  transition: 0.15s;
+}
+.choices-btn:active {
+  filter: brightness(125%);
+  -webkit-transform: scale(1.05);
+}
+.choices-btn2 {
+  width: auto;
+  text-align: center;
+  padding: 12px;
+  margin-top: 24px;
+  background: rgba(32,195,233,1);
+  background: linear-gradient(0deg, rgba(32,195,233,1) 0%, rgba(252,22,236,1) 100%);
+
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.choices-btn2:active {
+  filter: brightness(125%);
+  -webkit-transform: scale(1.05);
+}

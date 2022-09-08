@@ -1,0 +1,101 @@
+
+body {
+  background-color: rgb(8, 8, 8);
+  color: white;
+  font-family: Arial;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.instructions {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin: 0;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#lvlbtns {
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+  width: auto;
+  padding: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+
+  transition: 0.15s;
+}
+#lvlbtns:hover {
+  filter: brightness(110%);
+}
+#lvlbtns:active {
+  -webkit-transform: scale(1.05);
+  filter: brightness(125%);
+}
+
+.lvl1btn {
+  background: rgb(5,115,255);
+  background: linear-gradient(0deg, rgba(5,115,255,1) 0%, rgba(35,237,231,1) 100%);
+  text-decoration: none;
+}
+.lvl2btn {
+  background: rgb(0, 218, 76);
+  background: linear-gradient(0deg, rgb(6, 143, 54) 0%, rgb(94, 238, 5)100%);
+  text-decoration: none;
+}
+.lvl3btn {
+  background: rgb(168,153,5);
+  background: linear-gradient(0deg, rgba(168,153,5,1) 0%, rgba(255,193,68,1) 100%);
+  text-decoration: none;
+}
+.lvl4btn {
+  background: rgb(222,127,10);
+  background: linear-gradient(0deg, rgba(222,127,10,1) 0%, rgba(255,68,68,1) 100%);
+  text-decoration: none;
+}
+.lvl5btn {
+  background: rgb(145,10,222);
+  background: linear-gradient(0deg, rgba(145,10,222,1) 0%, rgba(233,32,107,1) 100%);
+  text-decoration: none;
+}
